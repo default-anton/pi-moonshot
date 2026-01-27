@@ -8,12 +8,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akuzmenko/pi-moonshot.git"
+    "url": "git+https://github.com/default-anton/pi-moonshot.git"
   },
   "bugs": {
-    "url": "https://github.com/akuzmenko/pi-moonshot/issues"
+    "url": "https://github.com/default-anton/pi-moonshot/issues"
   },
-  "homepage": "https://github.com/akuzmenko/pi-moonshot#readme",
+  "homepage": "https://github.com/default-anton/pi-moonshot#readme",
   "pi": {
     "extensions": ["./extensions/index.ts"]
   },
