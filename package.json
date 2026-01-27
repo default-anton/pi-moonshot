@@ -1,0 +1,28 @@
+{
+  "name": "pi-moonshot",
+  "version": "1.0.0",
+  "description": "Pi extension adding Moonshot AI provider with Kimi K2.5 and other models",
+  "type": "module",
+  "keywords": ["pi-package", "pi-extension", "moonshot", "kimi", "ai-provider"],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akuzmenko/pi-moonshot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akuzmenko/pi-moonshot/issues"
+  },
+  "homepage": "https://github.com/akuzmenko/pi-moonshot#readme",
+  "pi": {
+    "extensions": ["./extensions/index.ts"]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "files": [
+    "extensions/",
+    "README.md",
+    "LICENSE"
+  ]
+}
