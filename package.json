@@ -1,6 +1,6 @@
 {
   "name": "pi-moonshot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pi extension adding Moonshot AI provider with Kimi K2.5 and other models",
   "type": "module",
   "keywords": [
@@ -26,7 +26,7 @@
     ]
   },
   "peerDependencies": {
-    "@mariozechner/pi-coding-agent": "^0.52.12"
+    "@mariozechner/pi-coding-agent": "^0.53.0"
   },
   "files": [
     "extensions/",
