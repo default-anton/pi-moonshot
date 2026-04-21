@@ -1,6 +1,6 @@
 # pi-moonshot
 
-Pi extension adding [Moonshot AI](https://www.moonshot.ai/) provider support, including the Kimi K2.5 model family.
+Pi extension adding [Moonshot AI](https://www.moonshot.ai/) provider support, including the Kimi K2.6 and K2.5 model families.
 
 ## Installation
 
@@ -36,6 +36,7 @@ Or add to your `~/.pi/agent/settings.json`:
 
 | Model | Description | Context | Reasoning |
 |-------|-------------|---------|-----------|
+| `kimi-k2.6` | Latest flagship model with vision | 256K | Yes |
 | `kimi-k2.5` | Flagship model with vision | 262K | Yes |
 | `kimi-latest` | Latest stable version | 131K | No |
 | `kimi-k2-turbo-preview` | Fast inference model | 262K | No |
