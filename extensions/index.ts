@@ -3,7 +3,7 @@ import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
 /**
  * Moonshot Provider Extension
  *
- * Adds support for Moonshot AI models, specifically the new Kimi K2.5.
+ * Adds support for Moonshot AI models, including Kimi K2.6 and K2.5.
  * It uses the "zai" thinking format (thinking: { type: "enabled" }).
  */
 
@@ -13,6 +13,26 @@ export default function(pi: ExtensionAPI) {
     apiKey: "MOONSHOT_API_KEY",
     api: "openai-completions",
     models: [
+      {
+        id: "kimi-k2.6",
+        name: "Kimi K2.6",
+        reasoning: true,
+        input: ["text", "image"],
+        cost: {
+          input: 0.95,
+          output: 4.0,
+          cacheRead: 0.16,
+          cacheWrite: 0.95,
+        },
+        contextWindow: 262144,
+        maxTokens: 32768,
+        compat: {
+          thinkingFormat: "zai",
+          maxTokensField: "max_tokens",
+          supportsDeveloperRole: false,
+          supportsStore: false,
+        },
+      },
       {
         id: "kimi-k2.5",
         name: "Kimi K2.5",
