@@ -10,7 +10,7 @@ import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 export default function(pi: ExtensionAPI) {
   pi.registerProvider("moonshot", {
     baseUrl: "https://api.moonshot.ai/v1",
-    apiKey: "MOONSHOT_API_KEY",
+    apiKey: "$MOONSHOT_API_KEY",
     api: "openai-completions",
     models: [
       {
